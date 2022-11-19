@@ -14,4 +14,7 @@ else if (num == 6 )
   {
     Console.WriteLine($"{num} - Выходной");
   }
-  
+  if (num > 7)
+  {
+    Console.WriteLine($"{num} - не правильно введен день недели");
+  }
